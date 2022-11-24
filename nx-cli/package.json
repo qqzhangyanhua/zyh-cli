@@ -1,0 +1,20 @@
+{
+  "name": "zyh-cli",
+  "version": "1.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "bin":{
+    "zyh-cli":"bin/index.js"
+  },
+  "files": [
+    "dist","template"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "zyh-test":"1.0.0"
+  }
+}
